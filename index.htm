@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halima Nasir Salisu | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="portfolio-bg"></div>
+
+    <header>
+        <div class="logo">HNS</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-item active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-item" data-page="about">About</a></li>
+                <li><a href="#" class="nav-item" data-page="education">Education</a></li>
+                <li><a href="#" class="nav-item" data-page="skills">Skills</a></li>
+                <li><a href="#" class="nav-item" data-page="projects">Projects</a></li>
+                <li><a href="#" class="nav-item" data-page="certifications">Certificates</a></li>
+                <li><a href="#" class="nav-item" data-page="stack">Tools</a></li>
+                <li><a href="#" class="nav-item" data-page="philosophy">Philosophy</a></li>
+                <li><a href="#" class="nav-item" data-page="goals">Goals</a></li>
+                <li><a href="#" class="nav-item" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-container">
+
+        <section id="home" class="page-view active-view">
+            <div class="hero-content">
+                <h1>Halima Nasir Salisu</h1>
+                <p class="subtitle">Building functional, responsive, and data-driven web applications.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn primary-btn" onclick="navigateToPage('about')">Explore My Work</a>
+                    <a href="mailto:halimansalisu865@gmail.com" class="btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-view">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-img-box">
+                    <img src="about.jpg" alt="Halima Nasir Salisu" class="about-img">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I am Halima, a passionate software engineering student deeply invested in building clean, optimized, and highly functional digital environments. My path in technology is fueled by a desire to bridge technical logic with seamless user experiences.</p>
+                    <p>Currently in my 200 Level of Software Engineering studies at Northwest University, Kano (YUMSUK), I am dedicating my time to mastering both frontend architectures and backend systems. I thrive on breaking down complex programming problems and assembling them into efficient, responsive web solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="page-view">
+            <h2>Educational Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-card">
+                    <h3>B.Sc. Software Engineering (In Progress)</h3>
+                    <p class="institution">Northwest University, Kano</p>
+                    <p class="meta-date">200 Level Student</p>
+                    <p>Deepening my understanding of core computer science fundamentals, data structures, algorithms, and engineering methodologies tailored for modern applications.</p>
+                </div>
+                <div class="timeline-card">
+                    <h3>National Diploma (ND) in Computer Software Engineering Technology</h3>
+                    <p class="institution">Innovation and Vocational Enterprise Institute, Kano State Polytechnic</p>
+                    <p class="meta-date">Graduated: 2025</p>
+                    <p>Acquired practical, hands-on exposure to development life cycles, foundational technical logic, and system configurations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="page-view">
+            <h2>Technical Competencies</h2>
+            <p class="section-intro">Instead of typical framework icons, here is a breakdown of where my functional strengths lie as I grow as an engineer.</p>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-info"><span>Interface Structure & Semantics</span><span>90%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Responsive Layout Design & Styling</span><span>85%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Functional Programming & Client Logic (JS)</span><span>75%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Server-Side Environments (Node.js)</span><span>60%</span></div>
+                    <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="page-view">
+            <h2>Featured Work</h2>
+            <div class="projects-list">
+                <div class="project-card">
+                    <h3>01. Personal Engineering Portfolio</h3>
+                    <p class="project-tech">HTML5 / CSS3 / Native JavaScript</p>
+                    <p>This platform serves as my foundational production project. Built purely from the ground up without heavy external libraries, it models modular UI structures, responsive flex layouts, dynamic DOM-driven routing, and custom layout styling.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="page-view">
+            <h2>Verified Certifications</h2>
+            <div class="cert-container">
+                <div class="cert-image-wrapper">
+                    <img src="cert.jpg" alt="freeCodeCamp Responsive Web Design Certification" class="cert-img">
+                </div>
+                <div class="cert-details">
+                    <h3>Responsive Web Design</h3>
+                    <p class="issuer">Issued by freeCodeCamp</p>
+                    <p>An intensive curriculum focusing on developer best practices, accessible design patterns, media queries, flexbox grid structures, and raw CSS layout controls.</p>
+                    <a href="https://www.freecodecamp.org/certification/halima-nasir/responsive-web-design" target="_blank" rel="noopener noreferrer" class="btn primary-btn inline-btn">Verify Credential Live</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="page-view">
+            <h2>Ecosystem & Deployment Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card"><h4>Version Control</h4><p>GitHub</p></div>
+                <div class="tool-card"><h4>Frontend Deployment</h4><p>Vercel</p></div>
+                <div class="tool-card"><h4>Static Hosting Services</h4><p>Netlify</p></div>
+                <div class="tool-card"><h4>Cloud Hosting Environments</h4><p>Render</p></div>
+            </div>
+        </section>
+
+        <section id="philosophy" class="page-view">
+            <h2>My Approach to Code</h2>
+            <div class="philosophy-content">
+                <blockquote>
+                    "Writing code is more than making components work; it is about architecture, longevity, and writing programs that are accessible to anyone, on any screen."
+                </blockquote>
+                <p>I value semantic layouts over bloated framework boilerplate. I believe software engineering is an iterative discipline, meaning that clean code structures written today prevent architectural friction tomorrow. My focus rests heavily on maintainability and raw performance.</p>
+            </div>
+        </section>
+
+        <section id="goals" class="page-view">
+            <h2>Growth Framework</h2>
+            <div class="goals-container">
+                <div class="goal-box">
+                    <span class="goal-num">01</span>
+                    <p>Master complex asynchronous patterns and API building with Node.js and Express to strengthen backend capabilities.</p>
+                </div>
+                <div class="goal-box">
+                    <span class="goal-num">02</span>
+                    <p>Integrate relational and non-relational database architectures securely into active web applications.</p>
+                </div>
+                <div class="goal-box">
+                    <span class="goal-num">03</span>
+                    <p>Contribute open-source software updates to accessible local technologies within Nigeria's evolving dev ecosystem.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page-view">
+            <h2>Get In Touch</h2>
+            <p class="contact-sub">Let's collaborate on software engineering initiatives or development projects.</p>
+            <div class="contact-details-box">
+                <div class="contact-line"><strong>Email:</strong> <a href="mailto:halimansalisu865@gmail.com">halimansalisu865@gmail.com</a></div>
+                <div class="contact-line"><strong>Phone:</strong> <a href="tel:+2347086163864">07086163864</a></div>
+                <div class="contact-line"><strong>Location:</strong> Kano State, Nigeria</div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
